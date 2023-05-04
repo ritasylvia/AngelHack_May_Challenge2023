@@ -13,9 +13,9 @@ def find_floor(instructions):
     
     floor = 0
     for char in instructions:
-        if char == '<':
+        if char == "<":
             floor += 1
-        elif char == '>':
+        elif char == ">":
             floor -= 1
     return floor
 
