@@ -10,6 +10,7 @@ A left arrow (<) means going up one floor, and a right arrow (>) means going dow
 Which floor did he end up on?
 
 ## Solution
+#### Answer = 56
 ![image](https://user-images.githubusercontent.com/95111839/236300038-37687d0c-1888-44df-81a9-26fa9e0df26a.png)
 
 
