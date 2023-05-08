@@ -42,5 +42,22 @@ After 1234 seconds, what is the distance of the winning runner?
 
 ![image](https://user-images.githubusercontent.com/95111839/236635316-ee346646-11df-4148-83a5-d48d4b9c815b.png)
 
+# Challenge3:
+Given an integer string, create all integer permutations of its digits. Determine if there is a
+permutation whose integer value is evenly divisible by 7, i.e. (permutation value) mod 7 = 0.
+For example, the possible permutations of 789 are p = {789, 798, 879, 897, 978, 987}. Of
+these values, p[1] and p[5] is divisible by 7 because 879 mod 7 = 0 and 987 mod 7 = 0.
+Their average is (798 + 987) / 2 = 892.5
+What you’ll need to do is determine if any of the permutations of 1867 are divisible by 7, and
+if so, what is the average between the smallest and largest permutation? Decimals are
+allowed.
+
+## Solution
+#### Answer = 5152.0
+![image](https://user-images.githubusercontent.com/95111839/236912831-99f93a49-1be9-45a1-b47b-30447137c111.png)
+
+![image](https://user-images.githubusercontent.com/95111839/236912365-36c71026-a964-4592-90c1-a6b4e741c3ab.png)
+
+
 
 
