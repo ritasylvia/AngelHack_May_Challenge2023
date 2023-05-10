@@ -58,6 +58,22 @@ allowed.
 
 ![image](https://user-images.githubusercontent.com/95111839/236912365-36c71026-a964-4592-90c1-a6b4e741c3ab.png)
 
+# Challenge4:
+A group of workers gathered to complete a task. Each worker has an efficiency rating. They will be grouped in pairs so an even number of workers are required. The cost of a pair is the absolute difference of the efficiencies assigned to the workers. The cost of the task is the
+sum of the costs of all pairs formed. There are an odd number of workers to choose from, so one worker will not be paired. Select the worker to exclude so the task's cost is minimized. Given n workers and efficiency for each worker, find a configuration of the workers such that the cost of the task is the minimum possible. Return the minimum cost as the answer. 
+First Example
+Efficiency = [1, 2, 4]
+The first worker has an efficiency of 1, the second worker has an efficiency of 2, and the last worker has an efficiency of 4. If we excluded the first worker (1) and pair the second (2) and last worker (4), the cost is |2 -4| = 2 If we excluded the second worker (2), and pair the first and last worker instead, the cost is |1- 4| = 3. If we excluded the last worker (4), the cost is |1 - 2| = 1
+Thus, the minimum cost is 1.
+
+Task
+What is the minimum cost of this array of efficiencies:
+[1, 3, 54, 712, 52, 904, 113, 12, 135, 32, 31, 56, 23, 79, 611, 123, 677, 232, 997, 101, 111,123, 2, 7, 24, 57, 99, 45, 666, 42, 104, 129, 554, 335, 876, 35, 15, 93, 13]
+
+## Solution
+#### Answer = 475
+![image](https://github.com/ritasylvia/AngelHack_May_Challenge2023/assets/95111839/98cb0032-6849-4122-845f-9560e907e3e0)
+![image](https://github.com/ritasylvia/AngelHack_May_Challenge2023/assets/95111839/6f544412-8bbb-48a4-b347-938b5deabfc5)
 
 
 
