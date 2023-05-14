@@ -118,9 +118,30 @@ P.S. Use your best judgement to get the proper final answer - the answer should 
 sense and be readable!
 
 ## Solution
+I sort the codebook in descending order such that longer pairs are accounted for first before shorther pairs. With this, ' ' is seleced on the iteration befor 'yab'. When I had recurring space, I replaced the middle space with 'yab' 
 #### Answer: i love angelhack code challenge because it is fun and exciting and i dislike the word yab that appears in the phrase
 ![image](https://github.com/ritasylvia/AngelHack_May_Challenge2023/assets/95111839/f100f4b7-1dfb-4d88-bf79-4a0d7d10e37f)
-![image](https://github.com/ritasylvia/AngelHack_May_Challenge2023/assets/95111839/5abf5243-7815-4add-9e2b-4518c7f9d912)
+![image](https://github.com/ritasylvia/AngelHack_May_Challenge2023/assets/95111839/49d9a1bc-0196-4864-bfc4-667f33f54932)
+
+
+# Challenge5:
+Question 6: How many steps are needed to disconnect the string? (5marks)
+A secure communication network has been compromised and the cyber security team must restore its security. The network, series, is represented as a series of nodes identified using lowercase English letters. The nodes must be disconnected in order to remove the threat. In a single operation, any number of adjacent nodes identified by the same character can be disconnected. Find the minimum number of operations required to disconnect all the nodes and secure the network.
+Example
+Suppose we have a series that goes "aabbaa". To remove the string entirely, you’d first have to get rid of “bb” to get “aaaa” and then you can remove “aaaa”. You can remove the first “aa” to get “bbaa” but it means you’d need to spend another two moves to remove “bb” and then “aa”. In this case, the minimum number of moves required to delete the entire series is 2.
+Another example
+Suppose we have another series that goes “aabbbcccaacccaa”. What’s the minimum number of moves required for this? You can remove the middle “aa” first to get “aabbbccccccaa” and then remove “cccccc” to get “aabbbaa”, and then you remove the “bbb” and subsequently “aaaa” to delete the entire series. 
+Boom, 4 moves.
+
+What is the minimum number of steps required to delete this series:
+“kjslaqpwoereeeeewwwefifjdksjdfhjdksdjfkdfdlddkjdjfjfjfjjjjfjffnefhkjgefkgjefkjgkefjekihutrieruhigtefhgbjkkkknbmssdsdsfdvneurghiueor
+
+## Solution
+#### Answer: 90
+![image](https://github.com/ritasylvia/AngelHack_May_Challenge2023/assets/95111839/88f1d643-6ad8-41f3-bd5e-38d8e773fcb8)
+
+![image](https://github.com/ritasylvia/AngelHack_May_Challenge2023/assets/95111839/6225d815-5ca4-4fb4-956b-eccfaba00bc8)
+
 
 
 
