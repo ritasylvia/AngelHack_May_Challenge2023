@@ -51,7 +51,7 @@ def disconnect_nodes(nodes: str) -> int:
         nodes = nodes.replace(removed, "")
         print(f"Step {total_steps}: Remove {removed} -> Remaining: {nodes}")
     return total_steps
-nodes = "kjslaqpwoereeeeewwwefifjdksjdfhjdksdjfkdfdlddkjdjfjfjfjjjjfjffnefhkjgefkgjefkjgkefjekihutrierugtefhgbjkkkknbmssdsdsfdvneurghiueor"
+nodes = '''kjslaqpwoereeeeewwwefifjdksjdfhjdksdjfkdfdlddkjdjfjfjfjjjjfjffnefhkjgefkgjefkjgkefjekihutrieruhigtefhgbjkkkknbmssdsdsfdvneurghiueor'''
 
 steps = disconnect_nodes(nodes)
 print(f"\nTotal Steps: {steps}")
