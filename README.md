@@ -137,8 +137,8 @@ What is the minimum number of steps required to delete this series:
 “kjslaqpwoereeeeewwwefifjdksjdfhjdksdjfkdfdlddkjdjfjfjfjjjjfjffnefhkjgefkgjefkjgkefjekihutrieruhigtefhgbjkkkknbmssdsdsfdvneurghiueor
 
 ## Solution
-#### Answer: 90
-![image](https://github.com/ritasylvia/AngelHack_May_Challenge2023/assets/95111839/88f1d643-6ad8-41f3-bd5e-38d8e773fcb8)
+#### Answer: 92
+![image](https://github.com/ritasylvia/AngelHack_May_Challenge2023/assets/95111839/bc2b5858-5748-4eb5-8b55-26ad719b3ff0)
 
 ![image](https://github.com/ritasylvia/AngelHack_May_Challenge2023/assets/95111839/6225d815-5ca4-4fb4-956b-eccfaba00bc8)
 
