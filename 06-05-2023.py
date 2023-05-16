@@ -1,3 +1,4 @@
+#edited this, figured the one I pushed the wrong one earlier
 runners = [
     ("John", 10, 6, 20),
     ("James", 8, 8, 25),
@@ -47,4 +48,4 @@ for runner in runners:
     distances[name] = distance_covered(speed, run_duration, rest_duration, total_time)
 
 winner = max(distances, key=distances.get)
-print(f"The winning runner is {winner} with a total distance of {distances[winner]} meters.")
+print(f"The winning runner is {winner}, with a total distance of {distances[winner]} meters.")
