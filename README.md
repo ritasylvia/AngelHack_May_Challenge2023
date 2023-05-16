@@ -40,7 +40,8 @@ After 1234 seconds, what is the distance of the winning runner?
 #### Answer = Jenna: 3540m
 ![image](https://user-images.githubusercontent.com/95111839/236635363-de105379-dbad-4c1d-a778-edcfdea3a913.png)
 
-![image](https://user-images.githubusercontent.com/95111839/236635316-ee346646-11df-4148-83a5-d48d4b9c815b.png)
+![image](https://github.com/ritasylvia/AngelHack_May_Challenge2023/assets/95111839/68901957-f7c8-46a7-aced-da5a618f0ff3)
+
 
 # Challenge3:
 Given an integer string, create all integer permutations of its digits. Determine if there is a
@@ -142,6 +143,86 @@ What is the minimum number of steps required to delete this series:
 
 ![image](https://github.com/ritasylvia/AngelHack_May_Challenge2023/assets/95111839/6225d815-5ca4-4fb4-956b-eccfaba00bc8)
 
+# Challenge7:
+Question 7: What is the score? (5 marks)
+In this final puzzle, we bring you to Mars. That’s right - you’re an astronaut now. As part of the expedition, you’re required to look for lifeforms on the planet. You pull up your scanner, and scan scan scan. Unexpectedly, your sensor starts picking up things! However, your space budget didn’t quite cover scientific equipment and you'll have to make do with its abilities. The sensor scans an
+area that fits into a 5x5 grid. The scan shows lifeforms (X), and empty spaces (.) That’s strange. Your sensor changes quite rapidly - turns out at each minute new lifeforms appear and existing ones die. After a while, you make the following observation:
+1. At each minute, lifeforms live and die based on the number of lifeforms in the four adjacent tiles. For reference, this is what the adjacent tiles look like (.) based on one lifeform(X)
+ .
+.X.
+ .
+2. A lifeform passes away, and is replaced by an empty space UNLESS there is EXACTLY one lifeform adjacent to it.
+3. An empty space becomes filled with a lifeform if exactly ONE or TWO lifeforms are adjacent to it. Otherwise, the lifeform or the empty space remains the same
+Taking rules 2 and 3, we observe the following after one minute:
+ .           X
+.X. becomes X.X
+ .           X
+4. How about the tiles on the edge of the grid? They are considered to have fewer than 4 adjacent tiles, and the missing tiles count as empty space permanently 5. This process happens at every location simultaneously, i.e. you should count the number
+of adjacent lifeforms or space for each lifeform, and then update the tiles
+Example
+Start state:
+....X
+X..X.
+X..XX
+..X..
+X....
+1 minute:
+X..X.
+XXXX.
+XXX.X
+XX.XX
+.XX..
+2 minutes:
+XXXXX
+....X
+....X
+...X.
+X.XXX
+3 minutes:
+X....
+XXXX.
+...XX
+X.XX.
+.XX.X
+4 minutes:
+XXXX.
+....X
+XX..X
+.....
+XX...
+Apart from the rules above, you’re trying to understand what their nature is. You contact HQ,
+and HQ says to watch the first time a layout appears twice.
+Basically, there will come a time where you will observe the following twice:
+.....
+.....
+.....
+X....
+.X...
+HQ also says to calculate the lifeform score of that layout. Due to some odd configuration in
+your communicator, you’ll have to calculate it this way:
+2**(the tile number)
+Consider each from left to right in the top row as tiles 0, 1, 2, 3, 4 and the next row as 5, 6, 7,
+8, 9, … , and the last row is 20, 21, 22, 23, 24
+..... 0 1 2 3 4
+..... 5 6 7 8 9
+..... 10 11 12 13 14
+X.... 15 16 17 18 19
+.X... 20 21 22 23 24
+The lifeform score is thus
+2**15 (32768) + 2**21 (2097152) = 2129920
+Question
+Consider the following start state:
+XXXX.
+X....
+X..X.
+.X.X.
+XX.XX
+What is the lifeform score for the first layout that appears twice?
+
+## Solution
+#### Answer: Lifeform score = 32509983
+![image](https://github.com/ritasylvia/AngelHack_May_Challenge2023/assets/95111839/c18f5f04-210e-4bc4-b5a2-0bfc853454d7)
+![image](https://github.com/ritasylvia/AngelHack_May_Challenge2023/assets/95111839/7dad47e1-9ca5-4c84-9847-fa1b60d8df64)
 
 
 
