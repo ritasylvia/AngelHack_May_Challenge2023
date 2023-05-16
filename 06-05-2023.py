@@ -26,11 +26,17 @@ def distance_covered(speed, run_duration, rest_duration, total_time):
     - int: the total distance covered by the runner in meters.
     """
     distance = 0
+    running = True
     time_elapsed = 0
     
     while time_elapsed < total_time:
-        distance += speed * run_duration
-        time_elapsed += run_duration
+        if running:
+            distance += speed * min(run_duration, total_time - time_elapsed)
+            time_elapsed += run_duration
+            running = False
+        else:
+            time_elapsed += rest_duration
+            running = True
             
     return distance
 
